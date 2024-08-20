@@ -20,9 +20,9 @@
             colors: {
               clifford: '#da373d',
             },
-            // fontFamily: {
-            //   manrope: ['Manrope', 'sans-serif']
-            // }
+            fontFamily: {
+              manrope: ['Manrope', 'sans-serif'],
+            },
           },
         },
       };
@@ -34,5 +34,111 @@
       }
     </style>
   </head>
-  <body></body>
+  <body class="font-manrope">
+    <main>
+      <!-- Banner Section -->
+      <section
+        class="m-auto max-w-7xl flex justify-center items-center gap-10 h-screen"
+      >
+        <!-- Banner text -->
+        <div>
+          <h1
+            class="text-7xl text-slate-900 mb-4 font-extrabold leading-normal"
+          >
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-gray-500 text-lg mb-5 leading-loose">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <button
+            class="flex items-center p-5 bg-gradient-to-r from-orange-600 to-red-600 rounded-lg text-white text-xl text-bold"
+          >
+            Explore More
+            <ion-icon
+              name="arrow-forward-outline"
+              class="ml-2 text-3xl -rotate-45"
+            ></ion-icon>
+          </button>
+        </div>
+        <!-- Banner image -->
+        <div class="relative border-4 border-dashed border-gray-300">
+          <img src="images/banner.png" alt="two tea glasses" />
+          <div
+            class="flex justify-center items-center gap-5 shadow-lg rounded-md w-64 px-8 py-5 absolute left-5 bottom-5 z-10 bg-white"
+          >
+            <ion-icon name="star" class="text-3xl text-orange-300"></ion-icon>
+            <div>
+              <p class="font-extrabold text-3xl leading-relaxed">5.00</p>
+              <p class="text-gray-500 text-base">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Product Section -->
+      <section class="py-40 m-auto max-w-7xl">
+        <h2 class="text-6xl text-gray-900 font-extrabold text-center mb-6">
+          Our Featured Products
+        </h2>
+        <p
+          class="text-gray-500 text-lg leading-loose text-center w-9/12 mx-auto"
+        >
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- Cards -->
+        <div class="grid grid-cols-4">
+          <div
+            class="text-center px-16 py-28 rounded-xl bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4]"
+          >
+            <img class="mx-auto mb-8" src="images/fresh-1.png" alt="cup" />
+            <h4 class="text-xl text-gray-900 font-extrabold mb-4">Milk Tea</h4>
+            <p text-gray-500 text-lg leading-loose>
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="text-center px-16 py-28 rounded-xl bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4]"
+          >
+            <img class="mx-auto mb-8" src="images/fresh-1.png" alt="cup" />
+            <h4 class="text-xl text-gray-900 font-extrabold mb-4">Milk Tea</h4>
+            <p text-gray-500 text-lg leading-loose>
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="text-center px-16 py-28 rounded-xl bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4]"
+          >
+            <img class="mx-auto mb-8" src="images/fresh-1.png" alt="cup" />
+            <h4 class="text-xl text-gray-900 font-extrabold mb-4">Milk Tea</h4>
+            <p text-gray-500 text-lg leading-loose>
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="text-center px-16 py-28 rounded-xl bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4]"
+          >
+            <img class="mx-auto mb-8" src="images/fresh-1.png" alt="cup" />
+            <h4 class="text-xl text-gray-900 font-extrabold mb-4">Milk Tea</h4>
+            <p text-gray-500 text-lg leading-loose>
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Icon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
