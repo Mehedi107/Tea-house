@@ -34,16 +34,17 @@
       }
     </style>
   </head>
+
   <body class="font-manrope">
     <main>
       <!-- Banner Section -->
       <section
-        class="m-auto max-w-7xl flex justify-center items-center gap-10 h-screen"
+        class="px-5 m-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 items-center gap-10 h-auto md:h-screen"
       >
         <!-- Banner text -->
         <div>
           <h1
-            class="text-7xl text-slate-900 mb-4 font-extrabold leading-normal"
+            class="text-5xl lg:text-6xl xl:text-7xl text-slate-900 mb-4 font-extrabold leading-snug xl:leading-normal pt-10 md:pt-0"
           >
             It's good <br />
             tea time at The <br />
@@ -79,8 +80,10 @@
       </section>
 
       <!-- Featured Product Section -->
-      <section class="py-20 m-auto max-w-7xl">
-        <h2 class="text-6xl text-gray-900 font-extrabold text-center mb-6">
+      <section class="px-5 py-20 m-auto max-w-7xl">
+        <h2
+          class="text-4xl md:text-5xl lg:text-6xl text-gray-900 font-extrabold text-center mb-6"
+        >
           Our Featured Products
         </h2>
         <p
@@ -91,7 +94,9 @@
           humour, or randomised words which don't look even slightly believable.
         </p>
         <!-- Cards -->
-        <div class="grid grid-cols-4 gap-5 mt-12">
+        <div
+          class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-12"
+        >
           <div
             class="text-center p-7 rounded-xl bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4]"
           >
@@ -134,8 +139,8 @@
       </section>
 
       <!-- Great Tea Section -->
-      <section class="py-20 m-auto max-w-7xl">
-        <div class="grid grid-cols-2 gap-12">
+      <section class="px-5 py-20 m-auto max-w-7xl">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
           <div class="grid grid-cols-2 grid-rows-3 gap-7">
             <div
               class="bg-gradient-to-r from-[hsla(0,100%,51%,1)] to-[hsla(24,100%,61%,1)] opacity-10 rounded-lg"
@@ -186,9 +191,9 @@
       </section>
 
       <!-- Super client Section -->
-      <section class="py-20 m-auto max-w-7xl">
+      <section class="px-5 py-20 m-auto max-w-7xl">
         <div
-          class="grid grid-cols-2 bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-16 rounded-lg gap-12"
+          class="grid grid-cols-1 lg:grid-cols-2 bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-16 rounded-lg gap-16"
         >
           <div class="flex flex-col justify-center">
             <h3 class="text-5xl text-white mb-4 font-extrabold leading-tight">
@@ -272,7 +277,165 @@
           </div>
         </div>
       </section>
+
+      <!-- News and event section -->
+      <section class="px-5 py-20 m-auto max-w-7xl">
+        <h3 class="text-5xl mb-4 font-extrabold leading-tight text-center">
+          News & Events
+        </h3>
+        <p
+          class="text-gray-500 text-lg leading-loose text-center w-9/12 mx-auto mb-10"
+        >
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <!-- Card 1 -->
+          <div class="p-5 rounded-lg border border-slate-300">
+            <img class="w-full" src="images/news-1.png" alt="" />
+            <p class="font-semibold text-base text-slate-400 mt-5 mb-3">
+              Feb 05, 2027
+            </p>
+            <h4 class="font-extrabold text-xl mb-2">
+              Collecting 8 points for discount
+            </h4>
+            <p class="text-lg leading-loose text-slate-500">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a href="#" class="inline-block font-bold text-base mt-3"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- Card 2 -->
+          <div class="p-5 rounded-lg border border-slate-300">
+            <img class="w-full" src="images/news-2.png" alt="" />
+            <p class="font-semibold text-base text-slate-400 mt-5 mb-3">
+              Feb 05, 2027
+            </p>
+            <h4 class="font-extrabold text-xl mb-2">
+              Collecting 8 points for discount
+            </h4>
+            <p class="text-lg leading-loose text-slate-500">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a href="#" class="inline-block font-bold text-base mt-3"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- Card 3 -->
+          <div class="p-5 rounded-lg border border-slate-300">
+            <img class="w-full border-dashed" src="images/news-3.png" alt="" />
+            <p class="font-semibold text-base text-slate-400 mt-5 mb-3">
+              Feb 05, 2027
+            </p>
+            <h4 class="font-extrabold text-xl mb-2">
+              Collecting 8 points for discount
+            </h4>
+            <p class="text-lg leading-loose text-slate-500">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a href="#" class="inline-block font-bold text-base mt-3"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- Footer Section -->
+    <footer
+      class="px-5 bg-gradient-to-r from-[hsla(0,100%,51%,0.1)] to-[hsla(24,100%,61%,0.1)]"
+    >
+      <div class="py-20 m-auto max-w-7xl">
+        <!-- Footer Top -->
+        <div class="flex justify-between">
+          <div><img src="images/cup.png" alt="" /></div>
+          <div class="flex gap-5 items-center">
+            <p class="font-semibold text-xl text-slate-500">
+              Ready to get strated?
+            </p>
+            <button
+              class="flex items-center py-5 px-10 bg-gradient-to-r from-orange-600 to-red-600 rounded-lg text-white text-xl font-bold"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+
+        <!-- Footer Middle -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-20">
+          <div>
+            <h4 class="text-xl font-bold text-slate-900 mb-3">Quick Links</h4>
+            <ul class="flex flex-col gap-3 capitalize text-[hsla(0,0%,29%,1)]">
+              <li>home</li>
+              <li>about us</li>
+              <li>insurance</li>
+              <li>privacy and policy</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xl font-bold text-slate-900 mb-3">Our Service</h4>
+            <ul class="flex flex-col gap-3 capitalize text-[hsla(0,0%,29%,1)]">
+              <li>life insurance</li>
+              <li>car insurance</li>
+              <li>health insurance</li>
+              <li>house insurance</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xl font-bold text-slate-900 mb-3">Help</h4>
+            <ul class="flex flex-col gap-3 capitalize text-[hsla(0,0%,29%,1)]">
+              <li>FAQs</li>
+              <li>contact us</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-2xl font-bold text-slate-900 mb-3">
+              Subscribe to our newsletter
+            </h4>
+            <form>
+              <input class="bg-transparent py-5 border-b-2
+              border-[hsla(0,0%,29%,1)] placeholder:text-[hsla(0,0%,29%,1)]
+              text-sm mr-5 type="email" placeholder="Email address" />
+              <span
+                class="text-white cursor-pointer p-3 rounded-full bg-gradient-to-r from-orange-600 to-red-600"
+              >
+                <input type="submit" value="" />
+                <ion-icon
+                  name="chevron-forward-outline"
+                  class="-mb-1 text-xl"
+                ></ion-icon>
+              </span>
+            </form>
+            <div class="flex gap-10 text-2xl mt-8">
+              <a href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer bottom -->
+        <div>
+          <p class="font-semibold text-base text-center text-slate-500">
+            © 2027 UIDesign.to - All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
     <!-- Icon link -->
     <script
       type="module"
